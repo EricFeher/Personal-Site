@@ -1,0 +1,74 @@
+#navigation {
+    font-family: 'VT323', monospace;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    z-index: 3;
+}
+
+#socials {
+    width: 25vw;
+    height: 10vh;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialsContainer {
+    width: 75px;
+    height: 10vh;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navbuttons {
+    width: 50vw;
+    height: 10vh;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navButtonsContainer {
+    width: 300px;
+    height: 10vh;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#name {
+    width: 25vw;
+    height: 10vh;
+    z-index: 3;
+    font-size: xx-large;
+}
+
+.centerAndFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.underline {
+    display: inline-block;
+    padding-bottom:2px;
+    background-image: linear-gradient(#fff 0 0);
+    background-position: 0 100%;
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition:
+        background-size 0.3s,
+        background-position 0s 0.3s;
+}
+  
+.underline:hover {
+    background-position: 100% 100%;
+    background-size: 100% 2px;
+}

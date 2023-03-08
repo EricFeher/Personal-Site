@@ -1,6 +1,3 @@
-
-
-
 .landingPageController {
     display: flex;
     width: 100%;
@@ -13,12 +10,13 @@
     width: 30vw;
 }
 
-#fullname {
-    font-size: 5vw;
+#predescription {
+    font-size: 3vw;
+    color: #80ddff;
 }
 
 #description {
-    font-size: 3vw;
+    font-size: 6vw;
     
 }
 
@@ -30,37 +28,29 @@
     width: 50vw;
     font-family: 'VT323', monospace;
     z-index: 1;
-    /*background: #943434;*/
 }
 
 #pictureContainer {
     position: absolute;
     top:50%;
-    right:0%;
-    transform: translate(0,-50%);
-    width: 50vw;
+    right:15%;
+    transform: translate(0, -50%) scale(150%);
     font-family: 'VT323', monospace;
     z-index: 1;
-    /*background: #5fb8db;*/
 }
 
-#alma {
-    width: 50vw;
+#blob {
+    width:180px;
+    height:180px;
 }
 
-#repulo1 {
-    display:inline-block;
-    content: "&nbsp;";
-    min-width: 20vw;
-    min-height: 20vw;
-    border-radius: 50%;
-    background: linear-gradient(#e66465, #9198e5);
-    transform: rotateZ(60deg);
-    animation: moving 10ms;
-    z-index: 0;
+#picture {
+    height:150px;
+    width:150px;
+    transform: translate(20px, 50px);
 }
-
-@keyframes moving {
-    from {top:0}
-    to {top:100%}
-  }
+  
+#pictureContainer path {
+    fill: #80ddff;
+    transform: translate(100px, 100px);
+}

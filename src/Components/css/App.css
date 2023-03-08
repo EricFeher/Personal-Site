@@ -1,25 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=VT323&display=swap');
 
 html {
-  scroll-snap-type: y mandatory;
   font-family: 'Roboto', sans-serif;
+  color: #fff;
+  overflow: hidden;
 }
 
 .page {
   display: flex;
   width: 100vw;
   height: 100vh;
-  scroll-snap-align: center;
+  background-color: #9e75ab;
 }
 
-
-
-.container .page:nth-of-type(odd) {
-  background-color: #fff;
-  color: #000;
-}
-
-.container .page:nth-of-type(even) {
-  background-color: #000;
-  color: #fff;
+#navbar {
+  position: absolute;
+  width: 100vw;
+  height: 5vh;
 }

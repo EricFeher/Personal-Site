@@ -1,16 +1,21 @@
 import "./Components/css/App.css";
 import LandingPage from "./Components/LandingPage/LandingPage";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
+    <>
+
+    
     <div class="container">
+        <div id="navbar">
+          <Navbar/>
+        </div>
         <div class="page">
           <LandingPage/>
         </div>
-        <div class="page">2</div>
-        <div class="page">3</div>
-        <div class="page">4</div>
     </div>
+    </>
   );
 }
 
