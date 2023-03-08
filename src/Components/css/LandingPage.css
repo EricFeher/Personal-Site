@@ -1,0 +1,66 @@
+
+
+
+.landingPageController {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#profilePicture{
+    width: 30vw;
+}
+
+#fullname {
+    font-size: 5vw;
+}
+
+#description {
+    font-size: 3vw;
+    
+}
+
+#detailContainer {
+    position: absolute;
+    top:50%;
+    right:33%;
+    transform: translate(0,-50%);
+    width: 50vw;
+    font-family: 'VT323', monospace;
+    z-index: 1;
+    /*background: #943434;*/
+}
+
+#pictureContainer {
+    position: absolute;
+    top:50%;
+    right:0%;
+    transform: translate(0,-50%);
+    width: 50vw;
+    font-family: 'VT323', monospace;
+    z-index: 1;
+    /*background: #5fb8db;*/
+}
+
+#alma {
+    width: 50vw;
+}
+
+#repulo1 {
+    display:inline-block;
+    content: "&nbsp;";
+    min-width: 20vw;
+    min-height: 20vw;
+    border-radius: 50%;
+    background: linear-gradient(#e66465, #9198e5);
+    transform: rotateZ(60deg);
+    animation: moving 10ms;
+    z-index: 0;
+}
+
+@keyframes moving {
+    from {top:0}
+    to {top:100%}
+  }
