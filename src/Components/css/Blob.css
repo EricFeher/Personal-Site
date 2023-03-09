@@ -1,0 +1,34 @@
+#bgblob{
+    content: "&nbsp;";
+    position: absolute;
+    opacity: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%,-45%);
+    z-index: 1;
+    height: 45vh;
+    width: 50vw;
+    background: linear-gradient(#84618f,#5f4766);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+    border-radius: 29% 69% 68% 28% / 54% 51% 38% 42%;
+    animation: blobmove infinite 10s linear;
+}
+
+@keyframes blobmove {
+    0%{
+        border-radius: 29% 69% 68% 28% / 54% 51% 38% 42%;
+    }
+    25%{
+        border-radius: 79% 43% 51% 75% / 65% 40% 69% 71%;
+    }
+    50%{
+        border-radius: 48% 65% 40% 41% / 30% 40% 36% 83%;
+    }
+    75%{
+        border-radius: 100% 28% 86% 42% / 71% 48% 70% 34%;
+    }
+    100%{
+        border-radius: 29% 69% 68% 28% / 54% 51% 38% 42%;
+    }
+}

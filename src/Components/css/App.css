@@ -3,6 +3,8 @@
 html {
   font-family: 'Roboto', sans-serif;
   color: #fff;
+
+  background-color: #9e75ab;
   overflow: hidden;
 }
 
@@ -10,7 +12,6 @@ html {
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-color: #9e75ab;
 }
 
 #navbar {
@@ -18,3 +19,8 @@ html {
   width: 100vw;
   height: 5vh;
 }
+
+#container {
+  z-index: 10;
+}
+

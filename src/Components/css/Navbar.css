@@ -17,7 +17,7 @@
 }
 
 #socialsContainer {
-    width: 75px;
+    width: 100px;
     height: 10vh;
     z-index: 3;
     display: flex;
@@ -35,7 +35,7 @@
 }
 
 #navButtonsContainer {
-    width: 300px;
+    width: 500px;
     height: 10vh;
     z-index: 3;
     display: flex;
